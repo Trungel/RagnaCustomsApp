@@ -1,11 +1,11 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RagnaCustoms.Launcher", "RagnaCustoms.Launcher\RagnaCustoms.Launcher.csproj", "{A48057D9-ABE3-4B9F-98D1-C4C7F4DD1CC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RagnaCustoms.Launcher", "RagnaCustoms.Launcher\RagnaCustoms.Launcher.csproj", "{A48057D9-ABE3-4B9F-98D1-C4C7F4DD1CC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RagnaCustoms.App", "RagnaCustoms.App\RagnaCustoms.App.csproj", "{C6A7B343-F2DD-4BA6-98FD-92475B1E7109}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RagnaCustoms.App", "RagnaCustoms.App\RagnaCustoms.App.csproj", "{C6A7B343-F2DD-4BA6-98FD-92475B1E7109}"
 EndProject
 Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "RagnaCustoms.Installer2", "RagnaCustoms.Installer2\RagnaCustoms.Installer2.wixproj", "{EC272E76-5B40-4130-874C-E66932BFA30A}"
 EndProject
