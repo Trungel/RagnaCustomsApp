@@ -35,10 +35,12 @@ namespace RagnaCustoms.Services
             foreach (var d in devices)
                 if (d.Description.ToLower().Contains("quest") || d.Description.ToLower().Contains("pico"))
                 {
-                    DeviceSongDirectoryName = $@"\Android\data\com.wanadev.ragnarockquest\files\UE4Game\Ragnarock\Ragnarock\Saved\CustomSongs";
-                    DeviceConfigDirectoryName = $@"\Android\data\com.wanadev.ragnarockquest\files\UE4Game\Ragnarock\Ragnarock\Saved\Config";
+                    string deviceType = d.Description.ToLower().Contains("quest")? "quest": "pico";
+                    DeviceSongDirectoryName = $@"\Android\data\com.wanadev.ragnarock{deviceType}\files\UE4Game\Ragnarock\Ragnarock\Saved\CustomSongs";
+                    DeviceConfigDirectoryName = $@"\Android\data\com.wanadev.ragnarock{deviceType}\files\UE4Game\Ragnarock\Ragnarock\Saved\Config";
                     return d;
-                }
+                } 
+
             return null;
         }
 
